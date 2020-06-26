@@ -1,0 +1,25 @@
+%button {
+	height: 47.6px;
+	width: 170px;
+	color: white;
+	background-color: #1dedd1;
+	font-weight: 900;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 50px;
+	margin-top: 15px;
+	transition: .1s;
+	outline: none;
+	box-shadow: rgba(130, 121, 121, 0.3) 0px 0px 12px 0px;
+
+	// Hover
+	&:hover {
+		background-color: #1c8cb4;
+	}
+
+	// Active
+	&:active {
+		transform: scale(0.75);
+	}
+}
